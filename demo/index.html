@@ -11,14 +11,19 @@
 
 
 <div class="demo">
-    <div class="demo__search-box"></div>
 
     <h1 class="demo__title">Поиск с подсказками и селектом</h1>
+
+    <h2 class="demo__subtitle-h2">Пример использования поисковой строки</h2>
+
+    <div class="demo__search-box"></div>
+
     <h2 class="demo__subtitle-h2">Использование</h2>
     <div class="demo__text">
         <p class="demo__text-article">Для подключения нужно создать инстанс класса SearchBox и передать в параметры ноду-враппер, куда будет монтироваться бокс</p>
         <p class="demo__text-article">Сабмит формы нужно слушать по событию 'search' на ноде-враппере</p>
-        <p class="demo__text-article">Инпут формы для обработки подсказок нужно слушать по событию 'completeHint' на ноде-враппере. В event.detail.value приходит поисковая строка.</p>
+        <p class="demo__text-article">Инпут формы для обработки подсказок нужно слушать по событию 'completeHint' на ноде-враппере. В event.detail.value приходит поисковая
+            строка.</p>
         <p class="demo__text-article">Для вывода подсказок нужно вернуть html в метод .showHints(html)</p>
         <p class="demo__text-article">Для скрытия и очистки бокса подсказок нужно вызвать методы .hideHints() и .clearHints();</p>
 
