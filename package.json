@@ -1,6 +1,6 @@
 {
   "name": "search-row-hints",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin create search with hints",
   "main": "dist/script.js",
   "browserslist": [
